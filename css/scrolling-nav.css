@@ -67,35 +67,34 @@ of those sections to manage the look and feel of the site. */
 }
 
 .projet-section {
-    height: 100%;
+    height: auto;
     padding-top: 150px;
-    text-align: center;
     background: #fff;
 }
 
 /**** Code for buttons ****/
 
-.btn-primary {
+.intro-section .btn-primary {
     letter-spacing: 1px;
     background: #fff;
     border: 1px solid #fff;
 }
 
-.btn-primary:hover {
+.intro-section .btn-primary:hover {
     background: #fff;
 }
 
-.btn-primary:before {
+.intro-section .btn-primary:before {
     border: #fff solid 4px;
 }
 
-.btn {
+.intro-section .btn {
     border-radius: 0;
     padding: 10px 35px;
     font-size: 15px;
 }
 
-.btn-primary {
+.intro-section .btn-primary {
     color: #fff !important;
     background: #002546 !important;
     border: 1px solid #002546;
@@ -108,13 +107,13 @@ of those sections to manage the look and feel of the site. */
     border: none;
 }
 
-.btn-primary:hover {
+.intro-section .btn-primary:hover {
     background: #002546 !important;
     color: #fff;
     border: none;
 }
 
-.btn-primary:before {
+.intro-section .btn-primary:before {
     content: '';
     position: absolute;
     border: #002546 solid 4px;
@@ -128,15 +127,15 @@ of those sections to manage the look and feel of the site. */
     transition-property: top, right, bottom, left;
 }
 
-.btn-primary:hover:before {
+.intro-section .btn-primary:hover:before {
     top: -8px;
     right: -8px;
     bottom: -8px;
     left: -8px;
 }
 
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active, 
- .btn-primary{
+.intro-section .btn-primary:hover, .intro-section .btn-primary:focus, .intro-section .btn-primary:active, 
+.intro-section .btn-primary{
     background-color: #002546 !important;
     border-color: #002546 !important;
 }
@@ -284,10 +283,9 @@ of those sections to manage the look and feel of the site. */
 
 /**** Une section ****/
 .isasection{
-    font-weight: 600;
     font-family: RalewayLight;
     line-height: 1.7em;
-    color: #777777;
+    color: #333;
     text-align: justify;
     margin: 0 0 10px;
 }
@@ -588,3 +586,41 @@ of those sections to manage the look and feel of the site. */
     color: #002546
 }
 /**** End of Contact ****/
+
+/**** Project Section ***/
+
+.projet-section .first-part p{
+    margin-left: 30px;
+}
+
+.projet-section .grid-divider{
+    margin-top: 50px;
+}
+
+.projet-section .btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+  cursor:none;
+}
+
+.projet-section .btn-success{
+    background-color: #36a839 !important;
+    border-color: #36a839 !important;
+}
+
+.projet-section .btn-primary{
+    background-color: #002546 !important;
+    border-color: #002546 !important;
+}
+
+.projet-section .btn-info{
+    background-color: #b02930 !important;
+    border-color: #b02930 !important;
+}
+
+/**** End of Project Section ***/
